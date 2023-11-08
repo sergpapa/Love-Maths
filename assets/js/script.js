@@ -91,7 +91,7 @@ function calculateCorrectAnswer() {
     } else if(operator === "x") {
         return [operand1 * operand2, "multiplication"];     
     } else if(operator === "/") {
-        return [operand1 * operand2 / operand2, "division"];
+        return [operand1 / operand2, "division"];
     } else {
         alert(`uniplemented operator ${operator}`);
         throw `uniplemented operator ${operator}. Aborting!`;
